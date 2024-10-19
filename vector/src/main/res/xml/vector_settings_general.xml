@@ -82,7 +82,7 @@
         <im.vector.app.core.preference.VectorPreference
             android:key="SETTINGS_LOGGED_IN_PREFERENCE_KEY"
             android:title="@string/settings_logged_in"
-            tools:summary="\@user:matrix.org" />
+            tools:summary="\@user:l3xlabs.com" />
 
         <im.vector.app.core.preference.VectorPreference
             android:key="SETTINGS_HOME_SERVER_PREFERENCE_KEY"

@@ -16,12 +16,12 @@
         android:layout_width="wrap_content"
         android:layout_height="match_parent"
         android:orientation="horizontal"
-        app:layout_constraintGuide_percent="0.65" />
+        app:layout_constraintGuide_percent="0.45" />
 
     <com.google.android.material.tabs.TabLayout
         android:id="@+id/carouselIndicator"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
+        android:layout_height="0dp"
         android:background="@null"
         app:layout_constraintBottom_toTopOf="@id/loginSplashButtonsSpace"
         app:layout_constraintTop_toBottomOf="@id/splashCarouselFloatingSection"
@@ -74,7 +74,7 @@
         android:id="@+id/loginSplashSubmit"
         style="@style/Widget.Vector.Button.Text.Login"
         android:layout_width="0dp"
-        android:layout_height="wrap_content"
+        android:layout_height="100dp"
         android:textAllCaps="true"
         android:transitionName="loginSubmitTransition"
         app:layout_constraintBottom_toTopOf="@id/loginSplashBottomSpace"
@@ -86,10 +86,9 @@
     <Space
         android:id="@+id/loginSplashBottomSpace"
         android:layout_width="match_parent"
-        android:layout_height="0dp"
+        android:layout_height="100dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHeight_percent="0.15"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@id/loginSplashAlreadyHaveAccount" />
 

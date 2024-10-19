@@ -38,7 +38,7 @@ class SplashCarouselStateFactory @Inject constructor(
                         SplashCarouselState.Item(
                                 CommonStrings.ftue_auth_carousel_secure_title.colorTerminatingFullStop(com.google.android.material.R.attr.colorAccent),
                                 CommonStrings.ftue_auth_carousel_secure_body,
-                                hero(R.drawable.ic_splash_conversations, R.drawable.ic_splash_conversations_dark),
+                                hero(R.drawable.element_splash_white, R.drawable.ic_splash_conversations_dark),
                                 background(im.vector.lib.ui.styles.R.drawable.bg_carousel_page_1)
                         )
                 )
